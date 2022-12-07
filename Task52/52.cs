@@ -46,9 +46,9 @@ void PrintArray(int[,] inArray)
 ////////////////////////
 void CountAverage(int[,] inArray)
 {
-    double sum = 0 ;
-    for(int j=0; j<inArray.GetLength(1); j++)
+        for(int j=0; j<inArray.GetLength(1); j++)
     {
+        double sum = 0 ;
         for(int i=0; i<inArray.GetLength(0); i++)
         {
             sum += inArray[i,j];
